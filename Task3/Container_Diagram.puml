@@ -1,0 +1,30 @@
+@startuml Container_Diagram
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Диаграмма контейнеров: Открытие депозитов онлайн
+
+Person(клиент, "Клиент")
+
+System_Boundary(интернет_банк_boundary, "Интернет-банк") {
+    Container(веб_интерфейс, "Веб-интерфейс", "ASP.NET MVC", "UI для открытия депозитов")
+    Container(сервис_ставок, "Сервис ставок", ".NET Core", "Кэширует актуальные ставки (Redis)")
+    Container(sms_модуль, "SMS-модуль", ".NET Core", "Отправка/проверка кодов")
+}
+
+System_Boundary(абс_boundary, "АБС") {
+    Container(api_абс, "API АБС", "PL/SQL + REST", "Обработка запросов от интернет-банка")
+    Container(ядро_абс, "Ядро АБС", "Oracle PL/SQL", "Расчет ставок, ведение счетов")
+}
+
+System(кол_центр, "CRM кол-центра", "Java Spring Boot")
+System(смс_шлюз, "СМС-шлюз")
+
+Rel(клиент, веб_интерфейс, "Подает заявку", "HTTPS")
+Rel(веб_интерфейс, сервис_ставок, "Получает ставки", "gRPC")
+Rel(веб_интерфейс, sms_модуль, "Подтверждение SMS", "HTTP")
+Rel(сервис_ставок, api_абс, "Запрашивает ставки", "REST")
+Rel(api_абс, ядро_абс, "Вызов процедур", "PL/SQL")
+Rel(ядро_абс, смс_шлюз, "Отправка SMS", "SOAP")
+Rel(кол_центр, api_абс, "Передает заявку", "SOAP")
+
+@enduml
