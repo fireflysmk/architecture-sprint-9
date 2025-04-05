@@ -1,30 +1,17 @@
-@startuml Container_Diagram_Stavki
+@startuml Container_Diagram_v3
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-title Диаграмма контейнеров: Передача ставок
+title Контейнеры: Асинхронная передача ставок
 
-Person(оператор, "Оператор кол-центра")
+Container(абс, "АБС", "Oracle PL/SQL")
+Container(интегратор, "Интеграционный сервис", "Python", "Выгрузка и шифрование данных")
+Container(sftp, "SFTP-сервер", "OpenSSH")
+Container(crm, "CRM кол-центра", "Java Spring")
+Container(партнер, "Партнерский кол-центр", "Внешняя система")
 
-System_Boundary(абс_boundary, "АБС") {
-    Container(модуль_ставок, "Модуль ставок", "PL/SQL", "Расчет и хранение ставок")
-    Container(api_абс, "API ставок", "REST", "Предоставляет данные CRM")
-    Container(экспорт_файлов, "Экспорт в CSV", "Python", "Генерация файла для SFTP")
-}
-
-System_Boundary(crm_boundary, "CRM кол-центра") {
-    Container(crm_бэкенд, "Бэкенд CRM", "Java Spring", "Обработка API-запросов")
-    Container(crm_интерфейс, "Интерфейс оператора", "React", "Отображение ставок")
-}
-
-System(sftp, "SFTP-сервер", "Хранит файлы для партнера")
-System(партнер, "Партнерский кол-центр", "Внешняя система")
-
-Rel(модуль_ставок, api_абс, "Передает данные", "JDBC")
-Rel(api_абс, крм_бэкенд, "Запросы ставок", "REST/JSON")
-Rel(crm_бэкенд, крм_интерфейс, "Данные для UI", "WebSocket")
-Rel(crm_интерфейс, оператор, "Показывает ставки", "HTTP")
-Rel(модуль_ставок, экспорт_файлов, "Выгрузка данных", "CSV")
-Rel(экспорт_файлов, sftp, "Загрузка файла", "SFTP/PGP")
-Rel(sftp, партнер, "Скачивание файла", "SFTP")
+Rel(абс, интегратор, "JDBC (раз в час)", "Расписание")
+Rel(интегратор, sftp, "XLSX + PGP", "SFTP")
+Rel(интегратор, crm, "REST API", "JSON")
+Rel(sftp, партнер, "Загрузка файлов", "SFTP (раз в сутки)")
 
 @enduml

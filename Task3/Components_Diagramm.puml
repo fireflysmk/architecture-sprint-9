@@ -1,18 +1,20 @@
-@startuml Components_Diagram
+@startuml Components_Diagram_v2
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
-title Диаграмма компонентов: Интернет-банк (модуль депозитов)
+title Диаграмма компонентов: Микросервис депозитов
 
-Container(интернет_банк, "Интернет-банк", "ASP.NET MVC")
+Container(микросервис, "Микросервис депозитов", ".NET 6")
 
-Component(депозитный_ui, "UI депозитов", "React.js", "Форма открытия депозита")
-Component(api_ставок, "API ставок", ".NET Core", "Кэширование и логика ставок")
-Component(баланс_клиента, "API баланса", ".NET Core", "Проверка баланса счета")
-Component(sms_сервис, "SMS-сервис", ".NET Core", "Интеграция с шлюзом")
+Component(api_заявки, "API заявок", "ASP.NET Core", "Прием заявок от RabbitMQ")
+Component(обработчик, "Обработчик заявок", "C#", "Проверка баланса, генерация договора")
+Component(sms_сервис, "SMS-сервис", "C#", "Интеграция с СМС-шлюзом")
+ComponentDb(бд, "БД заявок", "MS SQL", "Хранение заявок и статусов")
+Component(кэш_ставок, "Кэш ставок", "Redis", "Актуальные ставки из АБС")
 
-Rel(депозитный_ui, api_ставок, "Запрос ставок", "REST")
-Rel(депозитный_ui, баланс_клиента, "Проверка баланса", "REST")
-Rel(депозитный_ui, sms_сервис, "Подтверждение операции", "REST")
-Rel(api_ставок, абс, "Синхронизация ставок", "API Gateway")
+Rel(api_заявки, обработчик, "Передает заявку", "gRPC")
+Rel(обработчик, бд, "Сохраняет данные", "Entity Framework")
+Rel(обработчик, sms_сервис, "Запрос на отправку SMS", "HTTP")
+Rel(кэш_ставок, обработчик, "Предоставляет ставки", "gRPC")
+Rel_R(бд, api_заявки, "Обновляет статус", "SQL")
 
 @enduml
