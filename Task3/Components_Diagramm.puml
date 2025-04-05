@@ -1,0 +1,20 @@
+@startuml Components_Diagram_v2
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Диаграмма компонентов: Микросервис депозитов
+
+Container(микросервис, "Микросервис депозитов", ".NET 6")
+
+Component(api_заявки, "API заявок", "ASP.NET Core", "Прием заявок от RabbitMQ")
+Component(обработчик, "Обработчик заявок", "C#", "Проверка баланса, генерация договора")
+Component(sms_сервис, "SMS-сервис", "C#", "Интеграция с СМС-шлюзом")
+ComponentDb(бд, "БД заявок", "MS SQL", "Хранение заявок и статусов")
+Component(кэш_ставок, "Кэш ставок", "Redis", "Актуальные ставки из АБС")
+
+Rel(api_заявки, обработчик, "Передает заявку", "gRPC")
+Rel(обработчик, бд, "Сохраняет данные", "Entity Framework")
+Rel(обработчик, sms_сервис, "Запрос на отправку SMS", "HTTP")
+Rel(кэш_ставок, обработчик, "Предоставляет ставки", "gRPC")
+Rel_R(бд, api_заявки, "Обновляет статус", "SQL")
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml Container_Diagram_v3
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Контейнеры: Асинхронная передача ставок
+
+Container(абс, "АБС", "Oracle PL/SQL")
+Container(интегратор, "Интеграционный сервис", "Python", "Выгрузка и шифрование данных")
+Container(sftp, "SFTP-сервер", "OpenSSH")
+Container(crm, "CRM кол-центра", "Java Spring")
+Container(партнер, "Партнерский кол-центр", "Внешняя система")
+
+Rel(абс, интегратор, "JDBC (раз в час)", "Расписание")
+Rel(интегратор, sftp, "XLSX + PGP", "SFTP")
+Rel(интегратор, crm, "REST API", "JSON")
+Rel(sftp, партнер, "Загрузка файлов", "SFTP (раз в сутки)")
+
+@enduml

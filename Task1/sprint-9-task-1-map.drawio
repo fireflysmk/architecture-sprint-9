@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Страница — 1" id="PuDCc_74Wl304FkovH6O">
+    <mxGraphModel dx="1077" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-48" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450" y="487" width="160" height="116" as="geometry">
+            <mxRectangle width="160" height="116" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-50" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-51" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="507" width="160" height="116" as="geometry">
+            <mxRectangle width="160" height="116" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-59" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-60" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-63" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="80" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-53" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-63">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-57" value="&#xa;&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Обслуживание клиентов&lt;/span&gt;&#xa;&#xa;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-63">
+          <mxGeometry x="10" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-71" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="150" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-72" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-71">
+          <mxGeometry width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-73" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px;&quot;&gt;Консультации клиентов&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-71">
+          <mxGeometry x="10" y="20" width="110" height="45.71" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-74" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-75" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-74">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-76" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px;&quot;&gt;Обработка заявок (АБС)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-74">
+          <mxGeometry x="10" y="17" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-83" value="&#xa;&lt;strong style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Фронт-офис (отделения)&lt;/strong&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-52" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-56" value="&#xa;&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Продажа депозитов&lt;/span&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-67" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; text-align: start;&quot;&gt;Открытие депозитов вручную (АБС)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-68" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-69" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-68">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-70" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; text-align: start;&quot;&gt;Расчет ставок (Excel → АБС)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-68">
+          <mxGeometry x="10" y="19" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-54" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-58" value="&#xa;&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Управление продуктами&lt;/span&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-78" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-80" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="250" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-81" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-80">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-82" value="&#xa;&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Анализ рисков (АБС)&lt;/span&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-80">
+          <mxGeometry y="27" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-109" value="" style="group" vertex="1" connectable="0" parent="nfrYn_D0Uc-ykekvgHCS-80">
+          <mxGeometry y="70" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-110" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-109">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-84" value="&#xa;&lt;strong style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Бэк-офис (депозиты/кредиты)&lt;/strong&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="274" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-85" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-86" value="&#xa;&lt;strong style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Кол-центр&lt;/strong&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="81" y="348" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-87" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-88" value="&#xa;&lt;strong style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Интернет-банк&lt;/strong&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-89" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-90" value="&#xa;&lt;strong style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Сайт&lt;/strong&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="487" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-91" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="320" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-92" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-91">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-93" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; text-align: start;&quot;&gt;Расчет ставок (Excel → АБС)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-91">
+          <mxGeometry x="10" y="19" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-94" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="390" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-95" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-94">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-96" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; text-align: start;&quot;&gt;Платежи, текущие счета&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-94">
+          <mxGeometry x="10" y="19" width="110" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-97" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="210" y="460" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-98" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-97">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-99" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; text-align: start;&quot;&gt;Маркетинг/реклама&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-97">
+          <mxGeometry x="10" y="19" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-100" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="320" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-101" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-100">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-102" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px;&quot;&gt;Консультации (CRM → АБС)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-100">
+          <mxGeometry x="10" y="17" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-103" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="390" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-104" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-103">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-106" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="460" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-107" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-106">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-112" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="389.5" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-113" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-112">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-114" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="460" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-115" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="nfrYn_D0Uc-ykekvgHCS-114">
+          <mxGeometry width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfrYn_D0Uc-ykekvgHCS-116" value="&#xa;&lt;h4 style=&quot;font-weight: var(--ds-font-weight-strong); font-size: 16.002px; line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: DeepSeek-CJK-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong&gt;Карта текущего IT-ландшафта&lt;/strong&gt;&lt;/h4&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

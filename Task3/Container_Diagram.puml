@@ -1,0 +1,16 @@
+@startuml Container_Diagram_v2
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title Диаграмма контейнеров: Микросервис депозитов
+
+Container(интернет_банк, "Интернет-банк", "ASP.NET MVC")
+Container(микросервис, "Микросервис депозитов", ".NET 6", "Обработка заявок и SMS")
+ContainerDb(бд_депозитов, "БД депозитов", "MS SQL")
+Container(абс, "АБС", "Oracle PL/SQL")
+Container(очередь, "RabbitMQ", "Очередь сообщений")
+
+Rel(интернет_банк, очередь, "Заявка → очередь", "AMQP")
+Rel(очередь, микросервис, "Чтение заявки", "AMQP")
+Rel(микросервис, бд_депозитов, "Сохраняет данные", "Entity Framework")
+Rel(абс, очередь, "Публикация ставок", "AMQP")
+@enduml
