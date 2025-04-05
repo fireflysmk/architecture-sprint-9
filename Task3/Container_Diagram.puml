@@ -1,30 +1,16 @@
-@startuml Container_Diagram
+@startuml Container_Diagram_v2
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-title Диаграмма контейнеров: Открытие депозитов онлайн
+title Диаграмма контейнеров: Микросервис депозитов
 
-Person(клиент, "Клиент")
+Container(интернет_банк, "Интернет-банк", "ASP.NET MVC")
+Container(микросервис, "Микросервис депозитов", ".NET 6", "Обработка заявок и SMS")
+ContainerDb(бд_депозитов, "БД депозитов", "MS SQL")
+Container(абс, "АБС", "Oracle PL/SQL")
+Container(очередь, "RabbitMQ", "Очередь сообщений")
 
-System_Boundary(интернет_банк_boundary, "Интернет-банк") {
-    Container(веб_интерфейс, "Веб-интерфейс", "ASP.NET MVC", "UI для открытия депозитов")
-    Container(сервис_ставок, "Сервис ставок", ".NET Core", "Кэширует актуальные ставки (Redis)")
-    Container(sms_модуль, "SMS-модуль", ".NET Core", "Отправка/проверка кодов")
-}
-
-System_Boundary(абс_boundary, "АБС") {
-    Container(api_абс, "API АБС", "PL/SQL + REST", "Обработка запросов от интернет-банка")
-    Container(ядро_абс, "Ядро АБС", "Oracle PL/SQL", "Расчет ставок, ведение счетов")
-}
-
-System(кол_центр, "CRM кол-центра", "Java Spring Boot")
-System(смс_шлюз, "СМС-шлюз")
-
-Rel(клиент, веб_интерфейс, "Подает заявку", "HTTPS")
-Rel(веб_интерфейс, сервис_ставок, "Получает ставки", "gRPC")
-Rel(веб_интерфейс, sms_модуль, "Подтверждение SMS", "HTTP")
-Rel(сервис_ставок, api_абс, "Запрашивает ставки", "REST")
-Rel(api_абс, ядро_абс, "Вызов процедур", "PL/SQL")
-Rel(ядро_абс, смс_шлюз, "Отправка SMS", "SOAP")
-Rel(кол_центр, api_абс, "Передает заявку", "SOAP")
-
+Rel(интернет_банк, очередь, "Заявка → очередь", "AMQP")
+Rel(очередь, микросервис, "Чтение заявки", "AMQP")
+Rel(микросервис, бд_депозитов, "Сохраняет данные", "Entity Framework")
+Rel(абс, очередь, "Публикация ставок", "AMQP")
 @enduml
